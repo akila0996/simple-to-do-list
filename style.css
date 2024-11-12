@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background:url("images/mirror.png")no-repeat;
+    background-size: cover;    
+}
+#container{
+   background:#a79b725c;
+   min-width: 400px;
+   min-height: 400px;
+   text-align: center;
+   border-radius: 30px;
+   position: relative;
+}
+#input{
+    border-radius: 20px;
+    border: none;
+    width: 80%;
+    height: 45px;
+    background-color: antiquewhite;
+    outline: none;
+    padding: 20px;
+}
+#addbtn{
+    border-radius: 20px;
+    border: none;
+    width: 30%;
+    height: 45px;
+    position: absolute;
+    right: 20px;
+   background-color: gainsboro;
+   cursor: pointer;
+}
+#result li{
+    list-style-type:circle;
+    text-align: justify;
+    margin: 10px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+span > button {
+    background: none;
+    border: none;
+}
